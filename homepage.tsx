@@ -376,15 +376,15 @@ export default function Component() {
             <div>
               <h4 className="font-semibold mb-4">연락처</h4>
               <div className="space-y-2 text-sm text-gray-300">
-                <p>서울특별시 종로구 성균관로 25-2</p>
-                <p>성균관대학교 인문사회과학캠퍼스</p>
-                <p>전화: 02-760-1234</p>
-                <p>이메일: contact@dhct.skku.edu</p>
+                <p>서울특별시 성북구 삼선교로 10바길 38,107호</p>
+                <p>한성대학교 산학협력단</p>
+                <p>전화: 02-760-4024</p>
+                <p>이메일: naturaljeon@hansung.ac.kr</p>
               </div>
             </div>
           </div>
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2024 디지털인문융합기술연구소. All rights reserved.</p>
+            <p>&copy; 2025 디지털인문융합기술연구소. All rights reserved.</p>
           </div>
         </div>
       </footer>

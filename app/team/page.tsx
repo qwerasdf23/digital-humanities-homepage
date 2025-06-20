@@ -30,23 +30,23 @@ export default function TeamPage() {
                   <Badge className="bg-slate-800">연구소장</Badge>
                 </div>
                 <div className="md:col-span-2">
-                  <h3 className="text-2xl font-bold mb-2">김디지털</h3>
-                  <p className="text-gray-600 mb-4">성균관대학교 국어국문학과 교수</p>
+                  <h3 className="text-2xl font-bold mb-2">전준현</h3>
+                  <p className="text-gray-600 mb-4">한성대학교 문학문화컨텐츠학과 부교수</p>
                   <div className="space-y-2 text-sm text-gray-600 mb-4">
                     <p>
-                      <strong>전공분야:</strong> 고전문학, 디지털 인문학, 텍스트 마이닝
+                      <strong>전공분야:</strong> 디지털 콘텐츠 기획/제작, 메타버스, 햅틱 디바이스, 인공지능
                     </p>
                     <p>
-                      <strong>학위:</strong> 서울대학교 국어국문학과 박사
+                      <strong>학위:</strong> 건국대학교 문화콘텐츠학 박사
                     </p>
                     <p>
-                      <strong>주요 경력:</strong> 하버드대학교 방문연구원, 한국고전문학회 이사
+                      <strong>주요 경력:</strong> 주식회사 너즈 대표, 한국영상문화학회 학술이사, 한국축제콘텐츠협회 이사
                     </p>
                   </div>
                   <div className="flex items-center space-x-4">
                     <div className="flex items-center text-slate-600">
                       <Mail className="w-4 h-4 mr-2" />
-                      <span className="text-sm">director@dhct.skku.edu</span>
+                      <span className="text-sm">naturaljeon@hansung.ac.kr</span>
                     </div>
                     <div className="flex items-center text-slate-600">
                       <ExternalLink className="w-4 h-4 mr-2" />
@@ -69,22 +69,22 @@ export default function TeamPage() {
                   <div className="w-32 h-32 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
                     <Users className="w-12 h-12 text-gray-400" />
                   </div>
-                  <Badge className="bg-emerald-600">교수</Badge>
+                  <Badge className="bg-emerald-600">조교수</Badge>
                 </div>
-                <h3 className="text-xl font-bold text-center mb-2">이자연어</h3>
-                <p className="text-gray-600 text-center mb-4">컴퓨터공학과 교수</p>
+                <h3 className="text-xl font-bold text-center mb-2">오세종</h3>
+                <p className="text-gray-600 text-center mb-4">AI응용학과 조교수</p>
                 <div className="space-y-2 text-sm text-gray-600 mb-4">
                   <p>
-                    <strong>전공:</strong> 자연어처리, 텍스트 마이닝
+                    <strong>전공:</strong> 마케팅, 자연어처리, 텍스트 마이닝
                   </p>
                   <p>
-                    <strong>연구분야:</strong> 고전문학 텍스트 분석
+                    <strong>연구분야:</strong> 과학 사회학, 인공지능, 데이터 커뮤니케이션 
                   </p>
                 </div>
                 <div className="text-center">
                   <div className="flex items-center justify-center text-slate-600">
                     <Mail className="w-4 h-4 mr-2" />
-                    <span className="text-sm">nlp@dhct.skku.edu</span>
+                    <span className="text-sm"></span>
                   </div>
                 </div>
               </CardContent>
@@ -96,16 +96,16 @@ export default function TeamPage() {
                   <div className="w-32 h-32 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
                     <Users className="w-12 h-12 text-gray-400" />
                   </div>
-                  <Badge className="bg-blue-600">교수</Badge>
+                  <Badge className="bg-blue-600">겸임교수</Badge>
                 </div>
-                <h3 className="text-xl font-bold text-center mb-2">박문화재</h3>
-                <p className="text-gray-600 text-center mb-4">사학과 교수</p>
+                <h3 className="text-xl font-bold text-center mb-2">김정웅</h3>
+                <p className="text-gray-600 text-center mb-4">문학문화컨텐츠 교수</p>
                 <div className="space-y-2 text-sm text-gray-600 mb-4">
                   <p>
-                    <strong>전공:</strong> 한국사, 문화유산학
+                    <strong>전공:</strong> 문확컨텐츠학
                   </p>
                   <p>
-                    <strong>연구분야:</strong> 디지털 아카이브
+                    <strong>연구분야:</strong> 박물관학,영상컨텐츠,인공지능 컨텐츠 
                   </p>
                 </div>
                 <div className="text-center">
@@ -117,7 +117,7 @@ export default function TeamPage() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            {/* <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="text-center mb-4">
                   <div className="w-32 h-32 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
@@ -223,11 +223,11 @@ export default function TeamPage() {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </section>
 
-        {/* Research Staff */}
+        Research Staff
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">연구원</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -237,14 +237,14 @@ export default function TeamPage() {
                   <div className="w-24 h-24 bg-gray-200 rounded-lg mx-auto mb-3 flex items-center justify-center">
                     <Users className="w-8 h-8 text-gray-400" />
                   </div>
-                  <Badge variant="outline">박사후연구원</Badge>
+                  <Badge variant="outline">연구원</Badge>
                 </div>
-                <h3 className="text-lg font-bold text-center mb-1">박디지털</h3>
-                <p className="text-gray-600 text-center text-sm mb-3">VR/AR 기술 전문</p>
+                <h3 className="text-lg font-bold text-center mb-1">안찬우</h3>
+                <p className="text-gray-600 text-center text-sm mb-3">영상 컨텐츠,AI 콘텐츠 기획/제작</p>
                 <div className="text-center">
                   <div className="flex items-center justify-center text-slate-600">
                     <Mail className="w-3 h-3 mr-1" />
-                    <span className="text-xs">vr@dhct.skku.edu</span>
+                    <span className="text-xs">ancw0302@hansung.ac.kr</span>
                   </div>
                 </div>
               </CardContent>
@@ -258,12 +258,12 @@ export default function TeamPage() {
                   </div>
                   <Badge variant="outline">연구원</Badge>
                 </div>
-                <h3 className="text-lg font-bold text-center mb-1">이문화</h3>
-                <p className="text-gray-600 text-center text-sm mb-3">문화 트렌드 분석</p>
+                <h3 className="text-lg font-bold text-center mb-1">김진성</h3>
+                <p className="text-gray-600 text-center text-sm mb-3">게임 컨텐츠 기획/제작</p>
                 <div className="text-center">
                   <div className="flex items-center justify-center text-slate-600">
                     <Mail className="w-3 h-3 mr-1" />
-                    <span className="text-xs">culture@dhct.skku.edu</span>
+                    <span className="text-xs">jinsung@hansung.ac.kr</span>
                   </div>
                 </div>
               </CardContent>
@@ -277,18 +277,18 @@ export default function TeamPage() {
                   </div>
                   <Badge variant="outline">연구원</Badge>
                 </div>
-                <h3 className="text-lg font-bold text-center mb-1">한인공지능</h3>
-                <p className="text-gray-600 text-center text-sm mb-3">AI 알고리즘 개발</p>
+                <h3 className="text-lg font-bold text-center mb-1">안은정</h3>
+                <p className="text-gray-600 text-center text-sm mb-3">마케팅 기획/콘텐츠 제작</p>
                 <div className="text-center">
                   <div className="flex items-center justify-center text-slate-600">
                     <Mail className="w-3 h-3 mr-1" />
-                    <span className="text-xs">aidev@dhct.skku.edu</span>
+                    <span className="text-xs">aidev@hansung.ac.kr</span>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            {/* <Card className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="text-center mb-4">
                   <div className="w-24 h-24 bg-gray-200 rounded-lg mx-auto mb-3 flex items-center justify-center">
@@ -305,12 +305,12 @@ export default function TeamPage() {
                   </div>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </section>
 
         {/* Advisory Board */}
-        <section className="mb-16">
+        {/* <section className="mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">자문위원</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card>
@@ -337,7 +337,7 @@ export default function TeamPage() {
               </CardContent>
             </Card>
           </div>
-        </section>
+        </section> */}
 
         {/* Administrative Staff */}
         <section>
@@ -348,9 +348,9 @@ export default function TeamPage() {
                 <div className="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-3 flex items-center justify-center">
                   <Users className="w-6 h-6 text-gray-400" />
                 </div>
-                <h3 className="font-bold mb-1">김행정</h3>
-                <p className="text-gray-600 text-sm mb-2">연구행정팀장</p>
-                <p className="text-xs text-gray-500">admin@dhct.skku.edu</p>
+                <h3 className="font-bold mb-1">안찬우</h3>
+                <p className="text-gray-600 text-sm mb-2">랩 매니저</p>
+                <p className="text-xs text-gray-500">ancw0302@hansung.ac.kr</p>
               </CardContent>
             </Card>
 
@@ -359,33 +359,12 @@ export default function TeamPage() {
                 <div className="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-3 flex items-center justify-center">
                   <Users className="w-6 h-6 text-gray-400" />
                 </div>
-                <h3 className="font-bold mb-1">박기술</h3>
-                <p className="text-gray-600 text-sm mb-2">기술지원팀장</p>
-                <p className="text-xs text-gray-500">tech@dhct.skku.edu</p>
+                <h3 className="font-bold mb-1">김진성</h3>
+                <p className="text-gray-600 text-sm mb-2">랩 부매니저</p>
+                <p className="text-xs text-gray-500">jinsung@hansung.ac.kr</p>
               </CardContent>
             </Card>
 
-            <Card>
-              <CardContent className="p-6 text-center">
-                <div className="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-3 flex items-center justify-center">
-                  <Users className="w-6 h-6 text-gray-400" />
-                </div>
-                <h3 className="font-bold mb-1">이홍보</h3>
-                <p className="text-gray-600 text-sm mb-2">대외협력팀장</p>
-                <p className="text-xs text-gray-500">pr@dhct.skku.edu</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="p-6 text-center">
-                <div className="w-20 h-20 bg-gray-200 rounded-lg mx-auto mb-3 flex items-center justify-center">
-                  <Users className="w-6 h-6 text-gray-400" />
-                </div>
-                <h3 className="font-bold mb-1">정회계</h3>
-                <p className="text-gray-600 text-sm mb-2">재무관리팀장</p>
-                <p className="text-xs text-gray-500">finance@dhct.skku.edu</p>
-              </CardContent>
-            </Card>
           </div>
         </section>
       </div>

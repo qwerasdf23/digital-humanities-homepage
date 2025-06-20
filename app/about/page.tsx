@@ -162,7 +162,7 @@ export default function AboutPage() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">협력 기관</h3>
                 <ul className="space-y-2 text-gray-600">
-                  <li>성균관대학교 인문과학연구원</li>
+                  <li>한성대학교</li>
                   <li>한국학중앙연구원</li>
                   <li>국립중앙도서관</li>
                   <li>문화재청 국립문화재연구소</li>
