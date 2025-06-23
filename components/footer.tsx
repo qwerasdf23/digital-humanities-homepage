@@ -86,12 +86,12 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">연락처</h4>
             <div className="space-y-2 text-sm text-gray-300">
-              <p>(재)디지털인문융합기술연구소</p>
-              <p>사업자등록번호: 123-45-67890</p>
-              <p>서울특별시 종로구 성균관로 25-2</p>
-              <p>성균관대학교 인문사회과학캠퍼스</p>
-              <p>전화: 02-760-1234 | 팩스: 02-760-5678</p>
-              <p>이메일: contact@dhct.skku.edu</p>
+              <p>디지털인문융합기술연구소</p>
+              <p>사업자등록번호:123-45-67890</p>
+              <p>서울특별시 성북구 삼선교로 10바길 38 상상밸리3 1층 107호</p>
+              <p>한성대학교</p>
+              <p>전화: 02-760-4024</p>
+              <p>이메일:sumeunkil02@hansung.ac.kr</p>
             </div>
           </div>
         </div>

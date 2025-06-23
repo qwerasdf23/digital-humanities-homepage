@@ -51,11 +51,9 @@ export default function ContactPage() {
                       <Phone className="w-6 h-6 text-slate-700" />
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-2">전화 및 팩스</h3>
+                      <h3 className="font-semibold mb-2">전화</h3>
                       <p className="text-gray-600">
-                        대표전화: 02-760-1234
-                        <br />
-                        팩스: 02-760-5678
+                        대표전화: 02-760-4024
                       </p>
                     </div>
                   </div>
